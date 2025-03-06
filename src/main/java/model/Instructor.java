@@ -1,5 +1,4 @@
 package model;
-
 import jakarta.persistence.*;
 import java.util.List;
 
@@ -25,13 +24,11 @@ public class Instructor {
         this.experienceYears = experienceYears;
     }
 
-    public boolean getName() {
-        return name != null;
+    public String getName() {
+        return name;
     }
 
     public Object getSpecialization() {
         return specialization;
     }
-
-    // Getters and Setters
 }
